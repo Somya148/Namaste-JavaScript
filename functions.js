@@ -54,15 +54,19 @@ But when we will call it as a function xyz it will throw an error because it;s s
 */
 
 // 6. Difference btw Parameters & Arguments ?
+/*
+Function parameters are listed inside the parentheses () in the function definition.
+
+Function arguments are the values received by the function when it is invoked.
+
+Inside the function, the arguments (the parameters) behave as local variables.*/
 var b = function (param1, param2) {
     console.log("Parameters");
 }
-/*
-The values which we pass inside the function are known as parameters.
-*/
 
 
-b(1, 2);
+
+b(1, 2);// arguments
 /*
 The values which we pass inside the function are known as arguments.
 */
